@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31-Oct-2018, 18:40:15
+    Author     : Tom Duckett
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 350px;
+    height: 500px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 5px 11px -5px rgba(0,0,0,0.65);
+    -moz-box-shadow: 2px 5px 11px -5px rgba(0,0,0,0.65);
+    box-shadow: 2px 5px 11px -5px rgba(0,0,0,0.65);
+}
+
+#title {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: #7c7c7d;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid #bfbfbf;
+    background-color: #f8f9fa;
+    color: #bfbfbf;
+    font-size: 18px;
+    padding: 5px;
+    width: 85%;
+    margin-left: 5%;
+    margin-bottom: 60px;
+}
+
+.input:focus {
+    color: #7c7c7d;
+}
+
+#login {
+    margin-left: 15%;
+    margin-bottom: 40px;
+    width: 70%;
+    height: 40px;
+    background-color: #efefef;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    color: grey;
+    cursor: pointer;
+    -webkit-box-shadow: 2px 5px 11px -5px rgba(0,0,0,0.65);
+    -moz-box-shadow: 2px 5px 11px -5px rgba(0,0,0,0.65);
+    box-shadow: 2px 5px 11px -5px rgba(0,0,0,0.65);
+}
+
+#login:hover {
+    background-color: #dedede;
+}
+
+#register {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+#register a{
+    text-decoration: none;
+    color: #bfbfbf;
+}
+
+#register a:hover {
+    color: #7c7c7d;
+}
